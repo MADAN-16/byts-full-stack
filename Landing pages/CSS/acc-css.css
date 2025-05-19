@@ -1,0 +1,46 @@
+#outerbox{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    
+   background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(37, 134, 153, 1) 100%);
+background-color: 8E1616;
+}
+div>div{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 150px;
+    background-color:#badeeb;
+    border-radius: 20px;
+    border: 3px solid black;
+    width: 500px;
+    height:230px;
+}
+label,p{
+    font-size: 20px;
+}
+input{
+    border: 2px solid black;
+    width: 150px;
+    height: 20px;
+    
+}
+
+button {
+    width: 50px;
+    font-size: 14px;
+    background-color:  #262096;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:#258699;
+}
+
+

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border: 2px solid black;
+}
+
+a{
+    
+    text-decoration: none;
+
+}
+
+ul{
+    color: white;
+    width:500px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+
+header>ul>a:link{
+  color:rgb(234, 223, 223);
+  
+}
+header>ul>a:visited{
+    color: rgb(233, 221, 221);
+}

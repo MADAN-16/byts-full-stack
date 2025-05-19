@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="/images/download.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOME</title>
+    <link rel="stylesheet" href="../CSS/global.css" />
+    <link rel="stylesheet" href="../CSS/acc-css.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="../images/download.jpg"
+        alt="icon"
+        width="200px"
+        height="100px"
+      />
+
+      <ul>
+        <a href="../index.html">home</a>
+        <a href="#">account</a>
+        <a href="about.html">about</a>
+        <a href="./contact.html">contact</a>
+        <a href="./Learn.html">learn</a>
+      </ul>
+    </header>
+
+    <div id="outerbox">
+      <div>
+        <br>
+        <p style="font-weight: bold"> ADDITION OF NUMBERS</p>
+        <br>
+        <label for="f-num">Enter First Number: <span><input type="number" name="f-num" id="f-num" /></span></label>
+        
+        <br />
+        <label for="s-num">Enter Second Number: <span> <input type="number" name="s-num" id="s-num" /></span></label>
+        <br />
+        <button onclick="fn()">Add</button>
+        <br />
+        <p>Addition of two numbers:<span id="output"> </span></p>
+      </div>
+    </div>
+
+    <script src="../Script/ADDScript.js"></script>
+  </body>
+</html>

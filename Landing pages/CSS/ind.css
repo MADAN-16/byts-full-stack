@@ -1,0 +1,39 @@
+
+
+
+
+div>ol>a:link{
+  color:black;
+  display: flex;
+  margin-top: 10px;
+}
+div>ol>a:visited{
+    color: black;
+}
+div {
+    margin-top:200px;
+    margin-left: 100px;
+    align-items:flex-start;
+    display: flex;
+    color:black;
+    flex-direction: column;
+    font-size: x-large;
+}
+p{
+     margin-left: 100px;
+    align-items:center;
+    display: flex;
+    color:black;
+    flex-direction: column;
+    font-size: x-large;
+    width: 200px;
+    font-weight: bolder;
+}
+body{
+    background-image: url(../images/ind\ background.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    
+    
+}
